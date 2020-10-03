@@ -19,7 +19,6 @@
 #artc{
     border-right: solid gray;
     border-width: 1px;
-
     width: 70%;
     height: auto;
     display: inline-block;
@@ -32,10 +31,10 @@
    margin: 20px;
 }
 #asid{
-    background-color: rgb(72, 177, 11);
     width: 28.5%;
-    height: 100px;
-    display: inline-block;    
+    height: auto;
+    display: inline-block;  
+    margin-top: -90px;  
 }
 #lbl{
     display: inline-block; 
@@ -242,14 +241,12 @@
 }
 /*Diseño de formulario de sugerencias de usuarios*/
 #suguest{
-    width: 35%;
-    background-color: yellow;
+    width: 100%;
     display: inline-block;
     place-items: right;
-    float: right;
 }
 #frm-sug{
-    width: 35%;
+    width: 95%;
     height: auto;
     border-style: solid;
     border-width: 1px;
@@ -282,7 +279,7 @@
     width: 95%;
     margin: 10px;
     display: inline-block;
-    height: 100px;
+    height: 190px;
     font-size: 23px;
     color: rgb(92, 92, 91);
     border-radius: 5px;
@@ -294,4 +291,7 @@
     background-color: rgb(3, 62, 70);
     color: white;
     font-size: 21px;
+}
+#gug-f{
+    margin-left: 20px;
 }
