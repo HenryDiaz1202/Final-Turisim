@@ -415,6 +415,9 @@ img {vertical-align: middle;}
 #lnk-1{
     color: wheat;
 }
+#lnk-1:hover{
+    color: rgb(156, 187, 20);
+}
 #artcle{
     width: 65%;
     margin-left: 50px;
