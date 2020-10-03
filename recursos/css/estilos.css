@@ -130,7 +130,7 @@
     width: 100%;
     background-color: rgb(240, 184, 3);
     height: 5%;
-    margin-top: 7%;
+    margin-top: 6.4%;
 }
 #tarjeta3{
     background-color: white;
@@ -396,4 +396,16 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+/*Disseño header de municipios*/
+#header-1{
+    width: 100%;
+    height: 94px;
+    background-color: rgb(2, 34, 31);
+    color: white;
+    text-align: center;
+}
+#lnk-1{
+    color: wheat;
 }
