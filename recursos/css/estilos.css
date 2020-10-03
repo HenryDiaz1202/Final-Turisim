@@ -427,10 +427,10 @@ img {vertical-align: middle;}
     width:28%;
     height: 565px;
     border-right: solid 1px gray;
-    float: right;
     display: inline-block;
     margin-right: 55px;
     margin-top: 20px;
+    float: right;
 }
 #volante{
     width: 95.4%;
@@ -452,7 +452,7 @@ img {vertical-align: middle;}
     height: 50px;
     border-style: none;
     background-color: rgba(22, 7, 156, 0.829);
-    margin-left: 180px;
+    margin-left: 335px;
     color: white;
     font-size: 21px;
     margin-top: 10px;
@@ -506,26 +506,42 @@ img {vertical-align: middle;}
 #volante-1{
     width: 95%;
     height: auto;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(241, 237, 237);
     margin-top: 18px;
-    border-bottom: solid 1px dimgray;
     margin-left: 27px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: solid 1px dimgray;
 }
 #volante-2{
     width: 95%;
     height: auto;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(241, 237, 237);
     margin-top: 18px;
-    border-bottom: solid 1px dimgray;
+    border: solid 1px dimgray;
     margin-right:25px;
     display: inline-block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#det{
+    background-color: white;
 }
 #smmr{
     margin-bottom: 5px;
     width: 100%;
     height: 30px;
-    background-color: rgb(164, 233, 94) ;
-    color: rgb(37, 36, 36);
+    background-color: rgb(54, 218, 155) ;
+    color: rgb(68, 68, 68);
     text-align: center;
     font-size: 20px;
+}
+#imagen{
+    margin-left: 17px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width:94.4%;
+    height:180px;
+    display: inline-block;
+    border-radius: 10px;
 }
