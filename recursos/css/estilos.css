@@ -28,7 +28,7 @@
 #haveit{
     width: 100%;
     display: inline-block;
-   margin: 20px;
+     margin: 20px;
 }
 #asid{
     width: 28.5%;
@@ -307,7 +307,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  width: 50%;
+  width: 95%;
   position: relative;
   margin: auto;
   margin-left: 29px;
@@ -373,7 +373,7 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 #btns-ss{
-    margin-left: 24.4%;
+    margin-left: 47.5%;
 }
 .active, .dot:hover {
   background-color: #717171;
@@ -414,13 +414,65 @@ img {vertical-align: middle;}
     color: wheat;
 }
 #artcle{
-    margin-top: 5px;
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 55%;
+    margin-left: 50px;
     border-left: solid 1px gray;
     border-right: solid 1px gray;
+    border-bottom: solid 1px gray;
+    display: inline-block;
+
 }
 #h2-1{
     margin-left: 30px;
+}
+#aside-mn{
+    margin-top: 1px;
+    width: 39.5%;
+    height: auto;
+    display: inline-block;
+    place-items: center;
+    border-right: solid 1px gray;
+}
+#volante{
+    width: 95.4%;
+    height: 160px;
+    background-color: rgb(236, 236, 236);
+    margin-top: 10px;
+    border-bottom: solid 1px dimgray;
+    margin-left: 5px;
+}
+#lbl-con{
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+#inf{
+    width: 30%;
+    height: 50px;
+    border-style: none;
+    background-color: rgba(22, 7, 156, 0.829);
+    margin-left: 80px;
+    color: white;
+    font-size: 21px;
+    margin-top: 10px;
+}
+#dv{
+    width: 100%;
+    background-color: rgba(173, 168, 168, 0.568);
+    text-align: right;
+    margin-top: 10px;
+    height: 44px;
+}
+#lk{
+    font-size: 20px;
+    color: blue;
+    margin-right: 5px;
+    display: inline-block;
+}
+#rc{
+    font-size: 218px;
+    margin-right: 5px;
+    display: inline-block;
 }
