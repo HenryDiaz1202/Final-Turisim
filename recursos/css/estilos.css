@@ -437,7 +437,7 @@ img {vertical-align: middle;}
     width: 95.4%;
     height: 160px;
     background-color: rgb(236, 236, 236);
-    margin-top: 20px;
+    margin-top: 18px;
     border-bottom: solid 1px dimgray;
     margin-left: 5px;
 }
@@ -453,7 +453,7 @@ img {vertical-align: middle;}
     height: 50px;
     border-style: none;
     background-color: rgba(22, 7, 156, 0.829);
-    margin-left: 80px;
+    margin-left: 180px;
     color: white;
     font-size: 21px;
     margin-top: 10px;
@@ -462,12 +462,12 @@ img {vertical-align: middle;}
     width: 100%;
     background-color: rgba(173, 168, 168, 0.568);
     text-align: right;
-    margin-top: 10px;
-    height: 44px;
+    margin-top: 20px;
+    height: 30px;
 }
 #lk{
     font-size: 20px;
-    color: blue;
+    color: rgb(4, 4, 122);
     margin-right: 5px;
     display: inline-block;
 }
