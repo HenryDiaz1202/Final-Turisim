@@ -418,26 +418,26 @@ img {vertical-align: middle;}
     margin-left: 50px;
     border-left: solid 1px gray;
     border-right: solid 1px gray;
-    border-bottom: solid 1px gray;
     display: inline-block;
-
+    margin-top: 20px;
 }
 #h2-1{
     margin-left: 30px;
 }
 #aside-mn{
-    margin-top: 1px;
-    width: 39.5%;
-    height: auto;
-    display: inline-block;
-    place-items: center;
+    width:38%;
+    height: 565px;
     border-right: solid 1px gray;
+    float: right;
+    display: inline-block;
+    margin-right: 70px;
+    margin-top: 20px;
 }
 #volante{
     width: 95.4%;
     height: 160px;
     background-color: rgb(236, 236, 236);
-    margin-top: 10px;
+    margin-top: 20px;
     border-bottom: solid 1px dimgray;
     margin-left: 5px;
 }
