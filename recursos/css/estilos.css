@@ -577,3 +577,27 @@ li{
     color: rgb(6, 170, 6);
     font-size: 21px;
 }
+/*GALERIA*/
+#art-cl{
+    margin: 30px;
+}
+#inicio-nv{
+    width: 100%;
+    height: 50px;
+    background-color: tomato;
+    display: inline-block;
+}
+#main-gal{
+    width: 100%;
+    background-color: teal;
+    height: auto;
+    border-style: solid 1px gray;
+    border: solid 1px black;
+}
+#imgn{
+    width: 24%;
+    margin-left: 11px;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
