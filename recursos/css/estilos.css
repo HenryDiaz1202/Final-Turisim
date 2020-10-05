@@ -602,3 +602,24 @@ li{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+/**/
+.pata{
+    width: 80%;
+    height: 90px;
+    border-top: rgb(160, 159, 159) solid 1px;
+    border-bottom: rgb(160, 159, 159) solid 1px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+th{
+    display: inline-block;
+    margin: 30px;
+}
+#lnj{
+    margin-left: 200px;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+/**/
