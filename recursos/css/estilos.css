@@ -366,17 +366,19 @@ img {vertical-align: middle;}
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  width: 35%;
+  height: 50px;
+  border-style: none;
+  background-color: rgba(22, 7, 156, 0.829);
+    margin-right: 200PX;
+  color: white;
+  font-size: 21px;
+  margin-top: 10px;
+  border-radius: 15px;
 }
-#btns-ss{
-    margin-left: 47.5%;
-}
+
 .active, .dot:hover {
   background-color: #717171;
 }

@@ -25,7 +25,7 @@
                 <div class="mySlides fade">
                   <div class="numbertext">1 / 3</div>
                   <img src="../img/siuna-src/parque.png" style="width:100%" height="470px">
-                  <div class="text">Parque</div>
+                  <div class="text"></div>
                 </div>
                 
                 <div class="mySlides fade">
@@ -46,11 +46,7 @@
                 </div>
                 <br>
                 
-                <div id="btns-ss">
-                  <span class="dot" onclick="currentSlide(1)"></span> 
-                  <span class="dot" onclick="currentSlide(2)"></span> 
-                  <span class="dot" onclick="currentSlide(3)"></span> 
-                </div>
+               
 
 
                 <div id="conten-2r">
@@ -163,10 +159,11 @@
     </article>
 
     <aside id="aside-mn">
-        
             <div id="volante"><br>
                 <label id="lbl-con" for="">Parque central</label><br>
-                <input type="submit" id="inf" value="Ver información"><br>
+                <div id="btns-ss">
+                    <input type="submit" id="inf" value="Ver información" class="dot" onclick="currentSlide(1)">
+                </div> 
                 <div id="dv">
                     <label id="lk" for="" style="margin-right: 10px;">100 Me gusta</label>
                     <label  id="rec" for="" style="margin-right: 30px;">99% Recomendado</label>
@@ -174,7 +171,9 @@
             </div>
             <div id="volante"><br>
                 <label id="lbl-con" for="">Estadio Oncelo Martin</label><br>
-                <input type="submit" id="inf" value="Ver información"><br>
+                <div id="btns-ss">
+                    <input type="submit" id="inf" value="Ver información" class="dot" onclick="currentSlide(2)">
+                </div> 
                 <div id="dv">
                     <label id="lk" for="" style="margin-right: 10px;">100 Me gusta</label>
                     <label  id="rec" for="" style="margin-right: 30px;">99% Recomendado</label>
@@ -182,7 +181,9 @@
             </div>
             <div id="volante"><br>
                 <label id="lbl-con" for="">Balneario WANI</label><br>
-                <input type="submit" id="inf" value="Ver información"><br>
+                <div id="btns-ss">
+                    <input type="submit" id="inf" value="Ver información" class="dot" onclick="currentSlide(3)">
+                </div> 
                 <div id="dv">
                     <label id="lk" style="margin-right: 10px;" for="">100 Me gusta</label>
                     <label  id="rec"  style="margin-right: 30px;" for="">99% Recomendado</label>
