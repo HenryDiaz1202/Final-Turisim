@@ -62,23 +62,7 @@
 #a1:hover{
     background-color: teal;
 }
-#img{
-    width: 3%;
-    float:right;
-    margin-top: 2px;
-}
-#img1{
-    width:4%;
-    float:right;
-    margin-top: 2px;
-    margin-left: -7.5px;
-    height: 10%;
-}
-#img2{
-    width:3%;
-    float:right;
-    height: 10%;
-}
+
 /* main tarjetas*/
 
 #contenedor{
@@ -556,7 +540,7 @@ img {vertical-align: middle;}
 #h3-ar{
     margin-bottom: 10px;
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 30px;
 }
 #h4-ar{
     margin-bottom: 10px;
@@ -565,6 +549,8 @@ img {vertical-align: middle;}
 }
 #p1-ar{
     margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
 }
 li{
     margin-left: 30px;
@@ -579,6 +565,7 @@ li{
     margin-bottom: 15px;
     color: rgb(6, 170, 6);
     font-size: 21px;
+    text-decoration: none;
 }
 /*GALERIA*/
 #art-cl{
@@ -641,3 +628,51 @@ th{
       width: 100%;
     }
   }
+
+  /*Creación de boton de redes sociales*/
+  #btn-mas{
+    display: none;
+}
+.container{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.redes a, .icon-mas2{
+    display: block;
+    text-decoration: none;
+    background: #cc2b2b;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition: all 500ms ease;
+}
+.redes a:hover{
+    background: #fff;
+    color: #cc2b2b;
+}
+.redes a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-mas:checked~ .redes a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+.icon-mas2{
+    cursor: pointer;
+    background: #f44141;
+    font-size: 23px;
+}
+#btn-mas:checked ~ .btn-mas .icon-mas2{
+    transform: rotate(137deg);
+    font-size: 25px;
+}
+
+  /*----------------------------------*/
