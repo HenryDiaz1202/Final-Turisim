@@ -24,3 +24,27 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+function ocultar(){
+ document.getElementById('infor-1').style.display="none";
+}
+function mostrar(){
+  document.getElementById('infor-1').style.display="block";
+ }
+ function ocultar1(){
+  document.getElementById('info-2').style.display="none";
+ }
+ function mostrar1(){
+   document.getElementById('info-2').style.display="block";
+  }
+  function ocultar2(){
+    document.getElementById('info-3').style.display="none";
+  }
+  function mostrar2(){
+    document.getElementById('info-3').style.display="block";
+  }
+  function ocultar3(){
+    document.getElementById('info-4').style.display="none";
+   }
+   function mostrar3(){
+     document.getElementById('info-4').style.display="block";
+    }
