@@ -674,5 +674,43 @@ th{
     transform: rotate(137deg);
     font-size: 25px;
 }
+#sect{
+    width: 95%;
+    margin-left: 20px;
+    height: auto;
+}
+
+/*--------------------------------------*/
+
+.c{
+    width: 90%;
+    height: 290px;
+    /*background-color: rgb(7, 7, 7);*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.rgt{
+  width: 30%;
+  height: 245px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 90px;
+  border-left: solid 1px gray;
+}
+
+.lft{
+  width: 30%;
+  height: 245px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 80px;
+  border-right: solid 1px gray;
+}
+.centr{
+    display: inline-block;
+    width: 30%;
+    height: 245px;
+    margin-top: 20px;
 
   /*----------------------------------*/

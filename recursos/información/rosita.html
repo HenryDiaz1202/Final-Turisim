@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="short cut icon" href="../img/IMG_20200926_163052.png">
 </head>
-<body>
+<body onload="ocultar();ocultar1();ocultar2();ocultar3();">
 
     <header id="header-1"><br>
         <h1 id="h1-1">Lugares turísticos de Rosita</h1>
@@ -104,9 +104,8 @@
                     <div id="izq">
                         <div id="volante-2"><br>
                             <label id="lbl-con" for="">Estadio municipal de beisbol Rosita</label><br>
-                            <img src="../img/Rosita/Captura.PNG" alt="" id="imagen"  width="97%" height="180px" style="margin-top: 10px;"> 
-                            <details id="det">
-                                <summary id="smmr">Ver información</summary>
+                            <img src="../img/Rosita/Captura.PNG" alt="" id="imagen" onclick="mostrar1();"> 
+                            <div id="infor-2">
                                <h3 id="h3-ar">Descripción</h3><br>
                                <a href="" style="display: inline-block;" id="s-ref">Ver galería de fotos de este lugar</a>
                                <p id="p1-ar">El estadio municipal johnny plehn errington, fue fundado el 18 de abril de 1996, con una capacidad total de 2500 personas, que ha recivido mejoras estructurales para el deporte con luminarias capaces para disfrutar de eventos nocturnos de beisbol.</p>
@@ -119,6 +118,8 @@
                                 <p id="p1-ar">El estadio esta ubicado contigo a la gasolinera de rosita, frente al hotel el triangulo, carretera a puerto cabezas.</p>
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2322.0430546434113!2d-84.39773120834873!3d13.923260203336818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f12f234ee61b239%3A0x200a390e19a0714c!2sEstadio%20Municipal%20Johnny%20Plehn%20Errington%2C%20NIC-30%2C%20Rosita!5e1!3m2!1ses-419!2sni!4v1601927687232!5m2!1ses-419!2sni" width="100%" height="200PX" frameborder="0" style="border:0;border-top: dotted 4px green;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                                 <div id="foot-tar">
+                                    <label for="" style="color: white;" onclick="ocultar1();">Mostrar menos</label>
+
                                     <label style="color: white; display: inline-block;margin-left: 20px;margin-top: 20px;" for="">Me gusta</label>
                                     <img src="../img/Facebook Like_48px.png" alt="">
                                     <label for="" style="color: white; display: inline-block;margin-left: 20px;margin-top: 20px;">Recomendar</label>
@@ -126,11 +127,11 @@
                                 </div>
                             </details> 
                         </div>
+                        
                         <div id="volante-2"><br>
                             <label id="lbl-con" for="">Centro recrativo los amigos</label><br>
-                            <img src="../img/Rosita/captura 3.PNG" alt="" id="imagen"  width="97%" height="180px" style="margin-top: 10px;"> 
-                            <details id="det">
-                                <summary id="smmr">Ver información</summary>
+                            <img src="../img/Rosita/captura 3.PNG" alt="" id="imagen" onclick="mostrar();"> 
+                            <div id="infor-1">
                                <h3 id="h3-ar">Descripción</h3><br>
                                <a href="" style="display: inline-block;" id="s-ref">Ver galería de fotos de este lugar</a>
                                <p id="p1-ar">Centro recreativo los amigos, es administrada por los hermanos Estrada, que lleva en la localidad alrederor de 25 años, con un negocio famililar heredado por la familia</p>
@@ -144,12 +145,14 @@
                                 <p id="p1-ar">Se encuentra ubicado entrada a rosita, comunidad de bambana contigo a rodeo taurino "La victoria"</p>
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2715.5248664109145!2d-84.3874395!3d13.9086479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f12f3b6d1675927%3A0xb8a104ff3ecf72e7!2sCentro%20Recreativo%20Campestre%20Los%20Amigos!5e1!3m2!1ses-419!2sni!4v1602093040653!5m2!1ses-419!2sni" width="100%" height="200PX" frameborder="0" style="border:0;border-top: dotted 4px green;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                                 <div id="foot-tar">
+                                    <label for="" style="color: white;" onclick="ocultar();">Mostrar menos</label>
                                     <label style="color: white; display: inline-block;margin-left: 20px;margin-top: 20px;" for="">Me gusta</label>
                                     <img src="../img/Facebook Like_48px.png" alt="">
                                     <label for="" style="color: white; display: inline-block;margin-left: 20px;margin-top: 20px;">Recomendar</label>
                                     <img src="../img/Handshake_48px.png" alt="">
+                                    
                                 </div>
-                            </details> 
+                        </div> 
                         </div>
                     </div>
                  </div>
