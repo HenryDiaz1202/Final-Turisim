@@ -31,20 +31,20 @@ function mostrar(){
   document.getElementById('infor-1').style.display="block";
  }
  function ocultar1(){
-  document.getElementById('info-2').style.display="none";
+  document.getElementById('infor-2').style.display="none";
  }
  function mostrar1(){
-   document.getElementById('info-2').style.display="block";
+   document.getElementById('infor-2').style.display="block";
   }
   function ocultar2(){
-    document.getElementById('info-3').style.display="none";
+    document.getElementById('infor-3').style.display="none";
   }
   function mostrar2(){
-    document.getElementById('info-3').style.display="block";
+    document.getElementById('infor-3').style.display="block";
   }
   function ocultar3(){
-    document.getElementById('info-4').style.display="none";
+    document.getElementById('infor-4').style.display="none";
    }
    function mostrar3(){
-     document.getElementById('info-4').style.display="block";
+     document.getElementById('infor-4').style.display="block";
     }
