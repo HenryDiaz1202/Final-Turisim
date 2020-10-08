@@ -1,3 +1,35 @@
 #infor-1,#info-2,#info-3,#info-4{
     background-color: white;
 }
+.INFORMACION{
+    width: 90%;
+    height: auto;
+    border-top: solid 1px gray;
+    display: inline-block;
+    border-bottom: solid 1px gray;
+    margin-left: 4.7%;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.INFORMACION > h1{
+    margin: 10px;
+}
+.INFORMACION > p{
+    margin: 20px;
+}
+.data-inf{
+    width: 90%;
+    height: auto;
+    border-top: solid 1px gray;
+    display: inline-block;
+    border-bottom: solid 1px gray;
+    margin-left: 4.7%;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.data-inf > label{
+    margin-top: 30px;
+    display: inline-block;
+}

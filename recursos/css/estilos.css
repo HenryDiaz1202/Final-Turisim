@@ -239,7 +239,7 @@
     height: auto;
     border-style: solid;
     border-width: 1px;
-    margin-top: 30px;
+    margin-top: 1px;
     margin-left: 10px;
     text-align: center;
     border-radius: 10px;
@@ -272,14 +272,16 @@
     font-size: 23px;
     color: rgb(92, 92, 91);
     border-radius: 5px;
+    text-align: justify;
 }
 #sub{
-    width: 20%;
+    width: 95.50%;
     height: 40px;
     margin-bottom: 10px;
     background-color: rgb(3, 62, 70);
     color: white;
     font-size: 21px;
+    border-radius: 10px;
 }
 #gug-f{
     margin-left: 20px;
